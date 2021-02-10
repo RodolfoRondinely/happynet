@@ -44,9 +44,8 @@ header{
     text-shadow: white 7px 5px;
 }
 .logo img{
-    border-radius: 15%;
-    padding: 2%;
-    margin-right: 50px;
+    border-radius: 5%;
+    padding: 12px;
 }
 .menus{
     width: 100%;
