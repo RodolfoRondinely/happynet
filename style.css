@@ -19,7 +19,7 @@ h1{
     text-transform: uppercase;
 }
 header{
-    width: 90%;
+    width: 100%;
     padding: .5%;
     margin: .5%;
     display: flex;
@@ -27,6 +27,7 @@ header{
     /*background: linear-gradient(rgb(0,0,0),rgb(52, 52, 134), rgb(0,0,0));*/
     justify-content: space-between;    
     align-content: center;
+    justify-items: center;
 }
 .slider {
     display: flex;
@@ -43,8 +44,9 @@ header{
     text-shadow: white 7px 5px;
 }
 .logo img{
-    border-radius: 50%;
+    border-radius: 15%;
     padding: 2%;
+    margin-right: 50px;
 }
 .menus{
     width: 100%;
@@ -53,15 +55,20 @@ header{
 }
 .menus ul{
     display: flex;
-    font-size: 1.5em;
-    padding: 55px;    
+    font-size: 1.3em;
     align-items: center;
     justify-items: center;
+    text-transform: uppercase;
 }
 .menus ul li{
-    width: 250px;
     display: flex;
     flex-direction: column;
+    padding: 9px;
+}
+.menus img{
+    width: 50px;
+    border-radius: 100%;
+    margin: 5px;
 }
 a{
     color: white;
@@ -146,19 +153,31 @@ border-radius: 15px;
 .card input{
     width: 100%;
     font-style: italic;    
-    font-size: 3em;
+    font-size: 1em;
     color: cornsilk;
     padding: 15px;
     margin: 4% 0;
     border-radius: 25px;
     background: rgb(255, 106, 0);
+    cursor: pointer;
+}
+.indique{
+    display: flex;
+    flex-direction: column;
+    margin: 5% 0;
+}
+.indique p{
+    font-size: 3em;
+    font-style: italic;
+    color: crimson;
+    background: cornflowerblue;
 }
 footer{
     display: flex;
     flex-direction: column;
     background:darkkhaki;
 }
-footer img{
+footer img {
     align-items: center;
     display: flex;
     width: 100px;
