@@ -1,0 +1,177 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;    
+    font-family: 'Roboto Condensed', sans-serif;
+
+}
+h1{
+    font-size: 3em;
+    color: wheat;
+    text-align: center;
+}
+#hdivs { 
+    font-size:4em;
+    color: blue;
+    text-align: center;
+    background:none;
+    text-shadow: rgb(104, 211, 230) 5px 5px;
+    text-transform: uppercase;
+}
+header{
+    width: 90%;
+    padding: .5%;
+    margin: .5%;
+    display: flex;
+    background: linear-gradient(rgb(9, 9, 175),rgb(214, 15, 171), rgb(52, 52, 134));
+    /*background: linear-gradient(rgb(0,0,0),rgb(52, 52, 134), rgb(0,0,0));*/
+    justify-content: space-between;    
+    align-content: center;
+}
+.slider {
+    display: flex;
+	height: 200px;
+
+}	
+	.slide-track {
+		display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+}
+#slide1 h1{
+    color: rgb(48, 1, 255);
+    text-shadow: white 7px 5px;
+}
+.logo img{
+    border-radius: 50%;
+    padding: 2%;
+}
+.menus{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.menus ul{
+    display: flex;
+    font-size: 1.5em;
+    padding: 55px;    
+    align-items: center;
+    justify-items: center;
+}
+.menus ul li{
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+}
+a{
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    font-style: italic;
+    letter-spacing: 2px;
+}
+h2{
+    color: white;
+    letter-spacing: .2em;
+}
+.divisaoTelas{
+    padding: 5%;
+    text-align: center;
+    color: turquoise;
+    background: linear-gradient(rgb(9, 9, 175),rgb(214, 15, 171), rgb(52, 52, 134));
+}
+.telas h1{
+    font-size: 4em;
+    letter-spacing: 6px;
+    color: rgb(58, 23, 216);
+    text-shadow:purple 3px 5px;
+    background: linear-gradient(rgb(214, 9, 175),rgb(214, 15, 171), rgb(52, 52, 134));
+    padding: 2%;
+    border-radius: 45px;
+
+}
+.telas {
+    padding: 3%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.telas-1{
+    display: flex;
+    padding: 2%;
+    margin:2%;
+    justify-content: space-between;
+    align-items: center;
+    background: linear-gradient(rgb(214, 9, 175),rgb(214, 15, 171), rgb(52, 52, 134));
+    border-radius: 45px;
+border-radius: 15px;
+}
+.telas img{
+    width: 100%;
+    max-width: 100vh;
+
+    border-radius: 15px;
+}
+.planos{
+    display: flex;
+    justify-content: center;
+    background: linear-gradient(rgb(214, 9, 175),rgb(214, 15, 171), rgb(52, 52, 134));
+}
+.card{
+    background: turquoise;
+    margin: 2%;
+    padding: 3%;
+    border: 5px rgb(4, 15, 171)  solid;
+    border-radius: 45px;
+    text-align: center;
+}
+.card a{
+    color: rgb(23, 0, 128);
+    font-size: 4em;
+    font-weight:bold;
+    text-transform: uppercase;
+}
+.card p{
+    font-size: 2em;
+    text-transform: uppercase;
+    padding: 3%;
+    color: white;
+    border: 3px rgb(0, 2, 128) solid;
+    text-align: center;
+    border-radius: 25px;
+    margin: 2% 0;
+}
+.card input{
+    width: 100%;
+    font-style: italic;    
+    font-size: 3em;
+    color: cornsilk;
+    padding: 15px;
+    margin: 4% 0;
+    border-radius: 25px;
+    background: rgb(255, 106, 0);
+}
+footer{
+    display: flex;
+    flex-direction: column;
+    background:darkkhaki;
+}
+footer img{
+    align-items: center;
+    display: flex;
+    width: 100px;
+    border-radius: 100%;
+
+}
+footer .menus{
+    justify-content: center;
+
+}
+footer #logofooter{
+    width: 900px;
+    justify-content: center;
+    border-radius: 5%;
+    margin: 5% 25%;
+}
