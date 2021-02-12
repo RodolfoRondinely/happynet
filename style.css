@@ -124,7 +124,6 @@ h2{
 
 .telas-1{
     display: flex;
-    flex-wrap: wrap;
     padding: 2%;
     margin:2%;
     justify-content: space-between;
@@ -144,7 +143,6 @@ h2{
 }
 .planos{
     display: flex;
-    flex-wrap: wrap;
     justify-content: center;
     background: linear-gradient(rgb(214, 9, 175),rgb(214, 15, 171), rgb(52, 52, 134));
 }
