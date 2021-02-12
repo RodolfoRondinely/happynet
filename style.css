@@ -42,7 +42,7 @@ header{
     text-align: center;
     text-shadow: rgb(104, 211, 230) 5px 5px;
 }
-#tema {
+nav img {
     border-radius: 25px;
     padding: 10px;
     width: 400px;
@@ -56,6 +56,7 @@ header{
 .menus{
     width: 100%;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
 }
 .menus ul{
@@ -113,6 +114,8 @@ h2{
 .telas {
     padding: 3%;
     display: flex;
+    flex-wrap: wrap;
+
     flex-direction: column;
     justify-content: center;
 
@@ -121,6 +124,7 @@ h2{
 
 .telas-1{
     display: flex;
+    flex-wrap: wrap;
     padding: 2%;
     margin:2%;
     justify-content: space-between;
@@ -140,6 +144,7 @@ h2{
 }
 .planos{
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     background: linear-gradient(rgb(214, 9, 175),rgb(214, 15, 171), rgb(52, 52, 134));
 }
@@ -212,6 +217,7 @@ h2{
 }   
 footer{
     display: flex;
+    flex-wrap: wrap;
     flex-direction: column;
      background: linear-gradient(200deg, #03a9f4, #175);
 
@@ -219,6 +225,7 @@ footer{
 footer img {
     align-items: center;
     display: flex;
+    flex-wrap: wrap;
     width: 100px;
     border-radius: 100%;
 
@@ -228,6 +235,8 @@ footer .menus{
 
 }
 footer #logofooter{
+    display: flex;
+    flex-wrap: wrap;
     width: 900px;
     justify-content: center;
     border-radius: 5%;
