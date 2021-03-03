@@ -263,7 +263,7 @@ footer #logofooter{
 }
 .primeiro,.segundo {
     width: 100%;
-    background: url(./img/tc.jpg);
+    background: url(img/bgteste.jpg);
     background-repeat:no-repeat;
     background-size:cover;
 }
@@ -271,7 +271,6 @@ footer #logofooter{
     background: url(./img/f1.jpg);
     background-size: cover;
     background-position-y: -200px;
-
 background-repeat: no-repeat;}
 .terceiro img, .primeiro img,.segundo img{
 
